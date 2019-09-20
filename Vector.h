@@ -121,7 +121,7 @@ public:
     // Make sure your algorithm is O(N).
 
     // Place your code here.  
-    return iter - 1;
+    return iter;
   }
 
   iterator erase(iterator from, iterator to) {

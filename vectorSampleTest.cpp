@@ -50,7 +50,7 @@ TEST_CASE("insert inserts at beginning") {
   v1[3] = 22;
   v1[4] = 43;
 
-  v1.insert(v1.begin()+1, 29);
+  v1.insert(v1.begin(), 29);
   REQUIRE(v1.size() == 6);
   REQUIRE(v1.capacity() >= 6);
   REQUIRE(29 == v1[0]);
